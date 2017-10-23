@@ -1,8 +1,45 @@
 {
-  "name": "insight-kh-api",
-  "description": "A KHcoin blockchain REST and web socket API service for Litecore Node.",
-  "version": "0.4.4",
-  "repository": "git://github.com/inmean/insight-kh-api.git",
+  "_args": [
+    [
+      "insight-kh-api@^0.4.4",
+      "/home/inmean/khcore"
+    ]
+  ],
+  "_from": "insight-kh-api@>=0.4.4 <0.5.0",
+  "_id": "insight-kh-api@0.4.4",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/insight-kh-api",
+  "_nodeVersion": "4.8.4",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/insight-kh-api-0.4.4.tgz_1508510090182_0.540928770089522"
+  },
+  "_npmUser": {
+    "email": "inmean@khmercrypto.com",
+    "name": "inmean"
+  },
+  "_npmVersion": "2.15.11",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "insight-kh-api",
+    "raw": "insight-kh-api@^0.4.4",
+    "rawSpec": "^0.4.4",
+    "scope": null,
+    "spec": ">=0.4.4 <0.5.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_shasum": "716b87924b073b93f23abda006568aca17a79ddf",
+  "_shrinkwrap": null,
+  "_spec": "insight-kh-api@^0.4.4",
+  "_where": "/home/inmean/khcore",
+  "bitcoreNode": "lib",
+  "bugs": {
+    "url": "https://github.com/inmean/insight-kh-api/issues"
+  },
   "contributors": [
     {
       "name": "In Mean",
@@ -41,44 +78,61 @@
       "email": "braydon@bitpay.com"
     }
   ],
-  "bugs": {
-    "url": "https://github.com/inmean/insight-kh-api/issues"
-  },
-  "homepage": "https://github.com/inmean/insight-kh-api",
-  "license": "MIT",
-  "keywords": [
-    "insight",
-    "insight api",
-    "blockchain",
-    "khcoin api",
-    "blockchain api",
-    "json",
-    "khcore"
-  ],
-  "engines": {
-    "node": ">=0.12.0"
-  },
-  "scripts": {
-    "test": "NODE_ENV=test mocha -R spec --recursive"
-  },
-  "main": "lib",
-  "bitcoreNode": "lib",
   "dependencies": {
     "async": "*",
-    "khcore-lib": "^0.13.22",
-    "khcore-message": "^1.0.5",
     "body-parser": "^1.13.3",
     "compression": "^1.6.1",
+    "khcore-lib": "^0.13.22",
+    "khcore-message": "^1.0.5",
     "lodash": "^2.4.1",
     "lru-cache": "^4.0.1",
     "morgan": "^1.7.0",
     "request": "^2.64.0"
   },
+  "description": "A KHcoin blockchain REST and web socket API service for Litecore Node.",
   "devDependencies": {
     "chai": "^3.5.0",
     "mocha": "^2.4.5",
     "proxyquire": "^1.7.2",
     "should": "^8.3.1",
     "sinon": "^1.10.3"
-  }
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "716b87924b073b93f23abda006568aca17a79ddf",
+    "tarball": "https://registry.npmjs.org/insight-kh-api/-/insight-kh-api-0.4.4.tgz"
+  },
+  "engines": {
+    "node": ">=0.12.0"
+  },
+  "gitHead": "5ad1422e6935af0b86840eb5ff0a99039186ea59",
+  "homepage": "https://github.com/inmean/insight-kh-api",
+  "keywords": [
+    "blockchain",
+    "blockchain api",
+    "insight",
+    "insight api",
+    "json",
+    "khcoin api",
+    "khcore"
+  ],
+  "license": "MIT",
+  "main": "lib",
+  "maintainers": [
+    {
+      "name": "inmean",
+      "email": "inmean@khmercrypto.com"
+    }
+  ],
+  "name": "insight-kh-api",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/inmean/insight-kh-api.git"
+  },
+  "scripts": {
+    "test": "NODE_ENV=test mocha -R spec --recursive"
+  },
+  "version": "0.4.4"
 }
